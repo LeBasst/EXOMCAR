@@ -1,0 +1,318 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    float: left;
+    width: 100%;
+}
+
+.background{
+    width: 102%;
+    margin:-5px;
+    float: right; 
+}
+
+.header{
+    position: relative;
+}
+
+.logoMCAR{
+    position: absolute;
+    top:0%;
+    left:45%;
+    height: 15%;
+}
+
+h1{
+    position: absolute;
+    top: 73%;
+    left: 2%;
+    font-family: 'Playfair Display', serif;
+    font-size: 4vw;
+    color: rgb(206, 206, 206);
+    width: 80%;
+    letter-spacing: 0.2vw;
+}
+
+.slogan{
+         position: absolute;
+         top:45%;
+         left:2%;
+         font-family: 'Playfair Display', serif;
+         font-size: 6vw;
+         color: rgb(206, 206, 206);
+         text-align: left;
+         font-weight: bold;
+         line-height: 90%;
+         width: 80%;
+}
+
+.boutonessai{
+    position: absolute;
+    width: 3.4vw;
+    left: 72.8%;
+    top:126.5%;
+    z-index: 2;
+}
+
+button{
+    position: absolute;
+    top:127%;
+    right:3%;
+    font-family: 'Playfair Display', serif;
+    font-size: 2vw;
+    width: 24vw;
+    cursor: pointer;
+    transition: 0.2s;
+    text-shadow: 0px 1px 0px white;
+    color: black;
+}
+
+button:active{
+     color:darkgrey;
+     background: linear-gradient( rgb(255, 255, 255), rgb(226, 226, 226));
+}
+    
+button:hover{
+    background-color: bisque;
+}
+
+#photos{
+    
+    float: left;
+    border: 1px red solid;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+/* partie gauche de bastien dans section*/
+#header{
+    width: 100%;
+    float: left;
+}
+
+/*Premier Paragraphe*/
+
+#gauche{
+  border: white solid 0.5px;
+  display: flex;
+  margin-top: 0%;
+  width: 100%;
+  border: cyan solid 1px;
+  margin-bottom: -5px;
+}
+
+#lesparas{
+    width: 50%;
+}
+
+.faceavant{
+    width: 51%;
+    z-index: -1;
+}
+
+.faceavant img{
+    width: 100%;
+}
+
+.vision1{
+    padding-left: 9%;
+    padding-right: 9%;
+    line-height: 150%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7vw;
+}
+  
+  .vision2{
+    padding-right: 9%;
+    padding-left: 9%;
+    line-height: 150%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7vw;
+}
+  
+  h2{
+      padding-left: 9%;
+      padding-right: 9%;
+      padding-top: 5%;
+      font-size: 3vw;
+      width: 90%;
+      font-style: normal;
+      font-weight: inherit;
+      line-height: 90%;
+}
+
+.futur{
+
+padding-left: 9%;
+margin-top: -4%;
+padding-bottom: 2%;
+font-size: 1.5vw;
+}
+
+/*Deuxieme Paragraphe*/
+
+#gauchebis{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    margin-top: -14px;
+   
+}
+
+#lesparas2{
+    width:50%;
+    border: red solid 1px;
+}
+
+.bmarriere img{
+    width:100%;
+    
+}
+
+.bmArriere{
+    flex-direction: row-reverse;
+    width: 50%;
+    margin-right: 0.7%;
+    border: green solid 1px;
+}
+
+.caracteristique1{
+    padding-left: 15%;
+    padding-bottom: 5%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7vw;
+    border-bottom: black solid 1px; margin-left: 5%; margin-right: 5%; padding-left: 5%;
+}
+
+.caracteristique2{
+    padding-left: 15%;
+    padding-bottom: 5%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7vw;
+    border-bottom: black solid 1px; margin-left: 5%; margin-right: 5%; padding-left: 5%;
+
+}
+
+.caracteristique3{
+    padding-left: 15%;
+    padding-bottom: 5%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7vw;
+    border-bottom: black solid 1px; margin-left: 5%; margin-right: 5%; padding-left: 5%;
+
+}
+
+.caracteristique4{
+    padding-left: 15%;
+    padding-bottom: 8%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7vw;
+}
+/* partie droite marasy dans section*/
+
+#droite{
+    
+    width: 50%;
+    height: 50%;
+    border: 1px blue solid; 
+    justify-content:flex-start;
+    float: right;
+}
+
+#photosdroite{
+    width: 100%;
+    border: 1px rgb(136, 255, 0) solid; 
+    justify-content:flex-start;
+    flex:auto;
+}
+
+
+#photosdroite:hover{
+    background-color: rgb(240, 234, 234);
+}
+
+
+/* partie formulaire */
+/* photo de fond formulaire */
+#formulaire{
+    background-size: cover;
+    background-image: url("bmw_4x4_brouillard.png");
+    background-repeat:no-repeat;
+    width: 100%;
+    height: auto;
+    float: left;
+    border: rgb(187, 117, 13) 1px solid;
+}
+
+/* texte reserver votre essai */
+#textebmw4{
+    border: 1px rgb(21, 216, 109) solid;
+    height: auto;
+}
+
+
+.reserver{
+    border: 1px red solid;
+    margin-left: 3%;
+    font-size: 5vw;
+    font-weight: bold;
+   font-family: 'Playfair Display', serif;
+   padding: 0%;
+   width: 80%;
+    }
+
+/* texte Nouveau MCAR MC-I crossover*/
+
+.nouveau{
+    width: 60%;
+    border: 1px red solid;
+    padding: 0%;
+    font-size: 4vw;
+    margin-left: 3%;
+    margin-bottom: 15%;
+    font-family: 'Playfair Display', serif;
+}
+
+
+fieldset{
+    width: auto;
+    height: auto;
+    border: 1px red solid;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: content-box;
+    display: flex;
+    float: right;
+}
+
+
+.button {
+  background-color: rgb(5, 5, 5);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+}
+
+
+footer{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    float: left;
+    color: #fff; 
+    
+}
+
+#partiegauche{
+    float: left;
+    padding: 2%;
+    text-decoration: none;
+}
