@@ -9,6 +9,307 @@ body{
 }
 
 
+
+.background{
+    width: 102%;
+    margin:-5px;
+    float: right; 
+}
+
+.header{
+    position: relative;
+}
+
+.logoMCAR{
+    position: absolute;
+    top:0%;
+    left:45%;
+    height: 15%;
+}
+
+h1{
+    position: absolute;
+    top: 81%;
+    left: 2%;
+    font-family: 'Playfair Display', serif;
+    font-size: 4vw;
+    color: rgb(206, 206, 206);
+    width: 80%;
+    letter-spacing: 0.2vw;
+}
+
+.slogan{
+         position: absolute;
+         top:50%;
+         left:2%;
+         font-family: 'Playfair Display', serif;
+         font-size: 6vw;
+         color: rgb(206, 206, 206);
+         text-align: left;
+         font-weight: bold;
+         line-height: 90%;
+         width: 80%;
+}
+
+.boutonessai{
+    position: absolute;
+    width: 3.4vw;
+    left: 72.8%;
+    top:138%;
+    z-index: 2;
+}
+
+button{
+    position: absolute;
+    top:138%;
+    right:3%;
+    font-family: 'Playfair Display', serif;
+    font-size: 2vw;
+    width: 24vw;
+    cursor: pointer;
+    transition: 0.2s;
+    text-shadow: 0px 1px 0px white;
+   
+    
+}
+
+button a{
+    text-decoration: none;
+ color: black;}
+
+button:active{
+    
+     color:darkgrey;
+     background: linear-gradient( rgb(255, 255, 255), rgb(226, 226, 226));
+}
+    
+button:hover{
+    background-color: bisque;
+}
+
+#photos{
+    
+    float: left;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+/* partie gauche de bastien dans section*/
+#header{
+    width: 100%;
+    float: left;
+}
+
+/*Premier Paragraphe*/
+
+#gauche{
+  display: flex;
+  margin-top: 4%;
+  width: 100%;
+}
+
+#lesparas{
+    width: 100%;
+}
+
+.faceavant{
+    width: 100%;
+    z-index: -1;
+}
+
+.faceavant img{
+    width: 100%;
+}
+
+.vision1{
+    padding-left: 9%;
+    padding-right: 9%;
+    line-height: 150%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7vw;
+}
+  
+  .vision2{
+    padding-right: 9%;
+    padding-left: 9%;
+    line-height: 145%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7vw;
+}
+  
+  h2{
+      padding-left: 9%;
+      padding-right: 9%;
+      padding-top: 3%;
+      font-size: 3vw;
+      width: 90%;
+      font-style: normal;
+      font-weight: inherit;
+      line-height: 90%;
+}
+
+.futur{
+
+padding-left: 9%;
+margin-top: -4%;
+padding-bottom: 2%;
+font-size: 1.5vw;
+}
+
+/*Deuxieme Paragraphe*/
+
+#gauchebis{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    margin-top: -11px;
+   
+}
+
+#lesparas2{
+    width:50%;
+    margin-left: 20px;
+    margin-bottom: 2%;
+}
+
+.bmarriere img{
+    width:100%;
+    
+}
+.space { float: right;}
+
+.bmArriere{
+    flex-direction: row-reverse;
+    width: 52%;
+    z-index: -1;
+    margin-bottom: 2%;
+}
+
+.caracteristique1{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7vw;
+    border-bottom: black solid 1px; 
+    margin-left: 5%; 
+    margin-right: 5%; 
+    padding-bottom: 4%;
+}
+
+.caracteristique2{
+    padding-bottom: 4%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7vw;
+    border-bottom: black solid 1px; 
+     margin-right: 5%;
+     margin-left: 5%;
+    
+}
+
+.caracteristique3{
+    padding-bottom: 4%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7vw;
+    border-bottom: black solid 1px;  
+    margin-right: 5%; 
+    margin-left: 5%; 
+
+}
+
+.caracteristique4{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7vw;
+    margin-left: 5%;
+    margin-right: 5%; 
+}
+/* partie droite marasy dans section*/
+
+#droite{
+    
+    width: 49.5%;
+    height: 50%;
+    justify-content:flex-start;
+    float: right;
+}
+
+#photos1{
+    margin-top: -2.3%;}
+
+#photosdroite{
+    width: 100%;
+    justify-content:flex-start;
+    flex:auto;
+}
+
+
+#photosdroite:hover{
+    background-color: rgb(240, 234, 234);
+}
+
+
+/* partie formulaire */
+/* photo de fond formulaire */
+#formulaire{
+    background-size: cover;
+    background-image: url("bmw_4x4_brouillard.png");
+    background-repeat:no-repeat;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+/* texte reserver votre essai */
+#textebmw4{
+    height: auto;
+}
+
+
+
+/* texte Nouveau MCAR MC-I crossover*/
+
+
+
+fieldset{
+    width: auto;
+    height: auto;
+    border: 1px red solid;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: content-box;
+    display: flex;
+    float: right;
+}
+
+
+.button {
+  background-color: rgb(5, 5, 5);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+}
+
+
+footer{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    float: left;
+    color: #fff; 
+    
+}
+
+#partiegauche{
+    float: left;
+    padding: 2%;
+    text-decoration: none;
+}
+
 #photos{
 
     width: 100%;
@@ -17,7 +318,7 @@ body{
 }
 
 /* partie gauche dans section*/
-#gauche{
+#gauche1{
     float: left;
     font-family: 'Playfair Display', serif;
     font-size: 1.5vw; 
@@ -90,7 +391,7 @@ margin-bottom: 8%;}
    font-family: 'Playfair Display', serif;
    padding: 0%;
    width: 65%;
-   margin: 8% 0 0 8%;
+   margin: 4% 0 0 8%;
     }
 
 /* texte Nouveau MCAR MC-I crossover*/
@@ -105,11 +406,11 @@ margin-bottom: 8%;}
 
 /* partie formulaire */
 #formulaire{
-    background-size: 100% 102%;
+    background-size: 100% 100%;
     background-image: url("bmw_4x4_brouillard.png");
     background-repeat:no-repeat;
-    width: 100%;
-    height: 100%;
+    width: 99.8%;
+    height: 950px;
     float: left;
 }
 
@@ -176,6 +477,8 @@ fieldset input{
   margin-left: 21%;
   margin-top: 10%;
   font-weight: bold;
+  
+  
 }
 
 /* texte footer */
@@ -248,31 +551,30 @@ footer a {
 
 #mc-embedded-subscribe-form input[type=checkbox]
     {display: inline;
-         width:auto;
          margin-right: 10px;
         }
 
-	#mergeRow-gdpr {
-        border: 5px rgb(255, 0, 179) solid;
-        width: 50%;
+	#mailchimp {
         float: right;
         font-family: 'Playfair Display', serif;
-        font-size: 1.2vw;
+        font-size: 0.7vw;
         margin-top: 2%;
-        margin-left:20%;
+        padding: 0%;
        
     }
 
-    .content__gdprLegal{border: 2px yellow solid;}
+    .content__gdprLegal{}
 
 	#mergeRow-gdpr fieldset label {
         font-weight: normal;
-         border: 2px rgb(43, 255, 0) solid;
          float: left;
     }
 
+    
+
 	#mc-embedded-subscribe-form .mc_fieldset
-    {border:none;min-height: 0px;
+    {border:none;
+        min-height: 0px;
         padding-bottom:0px;}
     
     #mc_embed_signup{
@@ -282,5 +584,5 @@ footer a {
 
         .mergeRow{border: rgb(71, 255, 230) 1px solid;}
 
-.content__gdpr{border: rgb(237, 255, 71) 2px solid;
-width: 50%}
+.content__gdpr{
+  width: 100%}
