@@ -8,28 +8,23 @@ body{
     box-sizing: border-box;
 }
 
-
-
-.background{
-    width: 102%;
-    margin:-5px;
-    float: right; 
+#header{
+    width: 100%;
+    float: left;
 }
 
-.header{
-    position: relative;
+.{
+    width: 100%;   
 }
 
 .logoMCAR{
-    position: absolute;
-    top:0%;
     left:45%;
     height: 15%;
+     z-index: 1;
+     margin-top: -100%;
 }
 
 h1{
-    position: absolute;
-    top: 81%;
     left: 2%;
     font-family: 'Playfair Display', serif;
     font-size: 4vw;
@@ -39,8 +34,6 @@ h1{
 }
 
 .slogan{
-         position: absolute;
-         top:50%;
          left:2%;
          font-family: 'Playfair Display', serif;
          font-size: 6vw;
@@ -52,30 +45,32 @@ h1{
 }
 
 .boutonessai{
-    position: absolute;
+    float: left;
     width: 3.4vw;
-    left: 72.8%;
-    top:138%;
     z-index: 2;
+    margin-top: -3%;
+    margin-left: 5%;
+    padding: 0% 0% ;
 }
 
 button{
-    position: absolute;
-    top:138%;
-    right:3%;
+    float: right;
     font-family: 'Playfair Display', serif;
     font-size: 2vw;
     width: 24vw;
     cursor: pointer;
     transition: 0.2s;
     text-shadow: 0px 1px 0px white;
-   
-    
+    margin-top: -2.9%;
+    margin-right: 4%;    
+    background-color: rgb(163, 156, 156);
+    padding: 0% 0% ;
 }
 
 button a{
     text-decoration: none;
- color: black;}
+    color: rgb(32, 31, 31);
+}
 
 button:active{
     
@@ -96,10 +91,7 @@ button:hover{
 }
 
 /* partie gauche de bastien dans section*/
-#header{
-    width: 100%;
-    float: left;
-}
+
 
 /*Premier Paragraphe*/
 
@@ -242,12 +234,6 @@ font-size: 1.5vw;
     flex:auto;
 }
 
-
-#photosdroite:hover{
-    background-color: rgb(240, 234, 234);
-}
-
-
 /* partie formulaire */
 /* photo de fond formulaire */
 #formulaire{
@@ -264,11 +250,7 @@ font-size: 1.5vw;
     height: auto;
 }
 
-
-
 /* texte Nouveau MCAR MC-I crossover*/
-
-
 
 fieldset{
     width: auto;
@@ -361,6 +343,10 @@ margin-bottom: 8%;}
   padding: 0;
 }
 
+.compteur { display: block}
+
+.compteur:hover{display: block;
+background-color: black;}
 
 .phare{
     float: right;
@@ -403,15 +389,7 @@ margin-bottom: 8%;}
     font-family: 'Playfair Display', serif;
 }
 
-/* partie formulaire */
-#formulaire{
-    background-size: 100% 100%;
-    background-image: url("bmw_4x4_brouillard.png");
-    background-repeat:no-repeat;
-    width: 99.8%;
-    height: 950px;
-    float: left;
-}
+
 
 
 fieldset{
@@ -513,23 +491,18 @@ footer a {
     
 }
 
-
 #milieu{
     float: left;
     padding: 3%;
     width: 20%;
    
-    
 }
-
 
  a.universmcar , a.conditions{
      font-weight: bolder;
      font-family: 'Playfair Display', serif;
      font-size: 1.8vw;
     }
-
-
 
 /* partie tout à droite, reéseau */
 
@@ -562,7 +535,6 @@ footer a {
        
     }
 
-    .content__gdprLegal{}
 
 	#mergeRow-gdpr fieldset label {
         font-weight: normal;
@@ -583,5 +555,5 @@ footer a {
 
         .mergeRow{border: rgb(71, 255, 230) 1px solid;}
 
-.content__gdpr{
-  width: 100%}
+    .content__gdpr{
+    width: 100%}

@@ -1,0 +1,37 @@
+.boutonessai{
+    float: left;
+    width: 3.4vw;
+    z-index: 2;
+    margin-top: -3%;
+    margin-left: 5%;
+    padding: 0% 0% ;
+}
+
+button{
+    float: right;
+    font-family: 'Playfair Display', serif;
+    font-size: 2vw;
+    width: 24vw;
+    cursor: pointer;
+    transition: 0.2s;
+    text-shadow: 0px 1px 0px white;
+    margin-top: -2.9%;
+    margin-right: 4%;    
+    background-color: rgb(163, 156, 156);
+    padding: 0% 0% ;
+}
+
+button a{
+    text-decoration: none;
+    color: rgb(32, 31, 31);
+}
+
+button:active{
+    
+     color:darkgrey;
+     background: linear-gradient( rgb(255, 255, 255), rgb(226, 226, 226));
+}
+    
+button:hover{
+    background-color: bisque;
+}
