@@ -1,4 +1,5 @@
 
+
 body{
     margin: 0;
     padding: 0;
@@ -12,8 +13,6 @@ body{
     margin:-5px; 
     border: 0%;
 }
-
-
 
 .logoMCAR{
     position: absolute;
@@ -50,13 +49,13 @@ h1{
     position: absolute;
     width: 3.4vw;
     left: 72.8%;
-    top:139%;
+    top:136%;
     z-index: 2;
 }
 
 button{
     position: absolute;
-    top:139%;
+    top:136%;
     right:3%;
     font-family: 'Playfair Display', serif;
     font-size: 2vw;
@@ -98,16 +97,13 @@ button:hover{
 /*Premier Paragraphe*/
 
 #gauche{
-  border: white solid 0.5px;
   display: flex;
-  margin-top: 0%;
   width: 100%;
   margin-bottom: -5px;
 }
 
 #lesparas{
     width: 50%;
-
 }
 
 .faceavant{
@@ -127,7 +123,7 @@ button:hover{
     font-size: 1.7vw;
 }
   
-  .vision2{
+.vision2{
     padding-right: 9%;
     padding-left: 9%;
     line-height: 150%;
@@ -136,7 +132,7 @@ button:hover{
     margin-bottom: 0%;
 }
   
-  h2{
+h2{
       padding-left: 9%;
       padding-right: 9%;
       padding-top: 5%;
@@ -186,9 +182,7 @@ img.bmarriere {
     padding-bottom: 4%;
     font-family: 'Lato', sans-serif;
     font-size: 1.7vw;
-    border-bottom: black solid 1px; 
-    
-    
+    border-bottom: black solid 1px;    
 }
 
 .caracteristique3{
@@ -196,7 +190,6 @@ img.bmarriere {
     font-family: 'Lato', sans-serif;
     font-size: 1.7vw;
     border-bottom: black solid 1px;  
-    
 
 }
 
@@ -219,22 +212,9 @@ img.bmarriere {
     float: right;
 }
 
-
 /* texte Nouveau MCAR MC-I crossover*/
 
-fieldset{
-    width: auto;
-    height: auto;
-    border: 1px red solid;
-    justify-content: space-between;
-    flex-direction: column;
-    box-sizing: content-box;
-    display: flex;
-    float: right;
-}
-
-
-.button {
+.bouton {
   background-color: rgb(5, 5, 5);
   border: none;
   color: white;
@@ -268,12 +248,9 @@ h5{
     margin-left: 9%;
     margin-bottom: 8%;}
 
-
-
 .texte{
     margin-left: 9%;
     width: 80%;}
-/* partie droite marasy dans section*/
 
 #droite{ 
     width: 50.1%;
@@ -286,8 +263,6 @@ h5{
     width: 24.8vw;
     height: 18.5vw;
 }
-
-
 
 .phare{
     float: right;
@@ -306,7 +281,6 @@ h5{
     width: 24.8vw;
     height: 18.5vw;
 }
-
  
 /* partie formulaire */
 /* photo de fond formulaire */
@@ -316,11 +290,10 @@ h5{
     background-image: url("bmw_4x4_brouillard.png");
     background-repeat:no-repeat;
     width: 100%;
-    height: 970px;
+    height: 62vw;
     float: left;
 }
-
-  
+ 
 /* texte Nouveau MCAR MC-I crossover*/
 #textebmw4{
     height: auto;
@@ -344,7 +317,7 @@ h5{
     font-family: 'Playfair Display', serif;
 }
 
-fieldset{
+fieldset.form{
     width: 40%;
     flex-direction: column;
     box-sizing: content-box;
@@ -393,7 +366,7 @@ fieldset input{
     border: none;
 }
 
-.button {
+.bouton {
   background-color: rgb(5, 5, 5);
   border: none;
   color: white;
@@ -403,11 +376,7 @@ fieldset input{
   display: inline-block;
   font-size: 1.3vw;
   font-family: 'Playfair Display', serif;
-  margin-left: 21%;
-  margin-top: 10%;
-  font-weight: bold;
-  
-  
+  font-weight: bold; 
 }
 /* texte footer */
 
@@ -416,8 +385,7 @@ footer{
     width: 100%;
     height: 105%;
     float: left;
-    color: #fff; 
-    
+    color: #fff;    
 }
 
 footer a { 
@@ -444,7 +412,7 @@ footer a {
    }
 
 
- p.universmcar , p.conditions{
+p.universmcar , p.conditions{
      font-weight: bolder;
      font-family: 'Playfair Display', serif;
      font-size: 1.8vw;
@@ -455,25 +423,24 @@ footer a {
 #social{
     float: right;
     padding: 0% 5% 0% 0%;
-}
+} 
 
 .rejoignez{
     color: #fff;
     font-size: 2.5vw;
-    padding-top: 0%;
-    
+    padding-top: 0%;    
 }
 
 #logo a{margin-right: 7%;}
 
 /* rgpd formulaire */
 
-#mc-embedded-subscribe-form input[type=checkbox]
-    {display: inline;
-         margin-right: 10px;
-        }
+#mc-embedded-subscribe-form input[type=checkbox]{
+    display: inline;
+    margin-right: 10px;
+}
 
-	#mailchimp {
+#mailchimp {
         float: right;
         font-family: 'Playfair Display', serif;
         font-size: 0.8vw;
@@ -482,25 +449,218 @@ footer a {
        
     }
 
-
-	#mergeRow-gdpr fieldset label {
+fieldset.mc_fieldset label {
         font-weight: normal;
          float: left;
     }
 
-    
 
-	#mc-embedded-subscribe-form .mc_fieldset
-    {border:none;
-        min-height: 0px;
-        padding-bottom:0px;}
-    
-    #mc_embed_signup{
-        background:#fff; 
-        clear:left; 
-        font:14px Helvetica,Arial,sans-serif; }
 
-        .mergeRow{border: rgb(71, 255, 230) 1px solid;}
 
-    .content__gdpr{
-    width: 100%}
+/* MEDIA QUERYS*/
+/* MEDIA QUERYS à mettre en taille iphone x*/
+@media screen and (max-width: 375px) {
+
+
+.background {
+    width: 101.3%;
+    margin: -5px;
+}
+
+.logoMCAR {
+    position: absolute;
+    top: 1%;
+    height: 14%;
+    margin-left:-45%;
+}
+
+
+.slogan {
+    position: absolute;
+    top: 13%;
+    left: 2%;
+    font-family: 'Playfair Display', serif;
+    font-size: 6vw;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    line-height: 95%;
+    width: 63%;
+}
+
+h1 {
+    position: absolute;
+    top: 19.5%;
+    left: 2%;
+    font-family: 'Playfair Display', serif;
+    font-size: 4.5vw;
+    color: white;
+    width: 62%;
+    letter-spacing: 0.2vw;
+}
+
+button {
+    position: absolute;
+    right: 0%;
+    font-family: 'Playfair Display', serif;
+    font-size: 4.9vw;
+    width: 56vw;
+    cursor: pointer;
+    transition: 0.2s;
+    text-shadow: 0px 1px 0px white;
+    color: black;
+    top: 25%;
+}
+
+
+button a {
+    text-decoration: none;
+    color: rgb(32, 31, 31);
+    margin-left: 10%;
+}
+
+.boutonessai {
+    position: absolute;
+    width: 9.6vw;
+    left: 43.8%;
+    z-index: 2;
+   top:24.5%;
+}
+
+.bouton {
+    background-color: rgb(5, 5, 5);
+    border: none;
+    color: white;
+    padding: 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3.6vw;
+    font-family: 'Playfair Display', serif;
+    margin-top: -5%;
+    margin-left: 0%;
+    font-weight: bold;
+}
+
+#gauche {
+    display: flex;
+    margin-top: 0%;
+    width: 100%;
+    margin-top: -7%;
+    margin-bottom: -5px;
+}
+
+#lesparas {
+    width: 50%;
+}
+
+.vision2 {
+    padding-right: 9%;
+    padding-left: 9%;
+    line-height: 150%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7vw;
+    margin-bottom: 0%;
+}
+
+.faceavant {
+    width: 51%;
+    z-index: -1;
+    float: left;
+}
+
+img.bmarriere {
+    width: 49.5vw;
+    float: right;
+}
+
+.reserver {
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    width: 63%;
+    margin: 2% 0% 4% 4%;
+    font-size: 7vw;
+}
+
+.nouveau {
+    width: 45%;
+    padding: 0%;
+    font-size: 5vw;
+    margin-left: 5%;
+    margin-top: -16px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+}
+
+fieldset.form{
+    width: 40%;
+    flex-direction: column;
+    box-sizing: content-box;
+    display: flex;
+    float: right;
+    padding: 0%;
+    margin-right: 4%;
+    margin-top: -35%;
+    border: 0;
+}
+
+.prenom{
+    height: 3.7%;
+    width: 100%;
+    border: none;
+}
+
+.nom{
+     height: 3.7%;
+    width: 100%;
+    border: none;
+}
+
+.email{
+     height: 3.7%;
+    width: 100%;
+    border: none;
+}
+
+.telephone{
+     height: 3.7%;
+    width: 100%;
+    border: none;
+}
+
+.codepostale{
+    height: 3.7%;
+    width: 100%;
+    border: none;
+}
+
+#mailchimp {
+    float: right;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.8vw;
+    margin-top: 6%;
+    padding: 0%;
+}
+
+
+.texte{
+    font-size: 1.7vw;
+    margin-left: 6%;
+    width: 86%;}
+
+.matériaux {
+    font-size: 3.3vw;
+    margin-left: 6%;}
+
+h5 {
+    font-size: 4vw;
+    width: 88%;
+    margin-left: 6%;
+    margin-bottom: auto;
+    margin-top: 5%;
+}
+
+
+
+}
+
