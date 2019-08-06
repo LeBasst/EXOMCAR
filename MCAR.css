@@ -10,6 +10,7 @@ body{
 
 .background{
     width: 100.3%;
+    height: 65vw;
     margin:-5px; 
     border: 0%;
 }
@@ -23,22 +24,22 @@ body{
 
 h1{
     position: absolute;
-    top: 73%;
+    top: 82%;
     left: 2%;
     font-family: 'Playfair Display', serif;
     font-size: 4vw;
-    color: rgb(206, 206, 206);
+    color: white;
     width: 80%;
     letter-spacing: 0.2vw;
 }
 
 .slogan{
          position: absolute;
-         top:40%;
+         top:51%;
          left:2%;
          font-family: 'Playfair Display', serif;
          font-size: 6vw;
-         color: rgb(206, 206, 206);
+         color: white;
          text-align: left;
          font-weight: bold;
          line-height: 95%;
@@ -80,8 +81,7 @@ button:hover{
     background-color: bisque;
 }
 
-#photos{
-    
+#photos1{
     float: left;
     width: 100%;
     height: auto;
@@ -106,6 +106,14 @@ button:hover{
     width: 50%;
 }
 
+#lesparas p{
+    padding-left: 9%;
+    padding-right: 9%;
+    line-height: 150%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5vw;
+}
+
 .faceavant{
     width: 51%;
     z-index: -1;
@@ -115,40 +123,22 @@ button:hover{
     width: 100%;
 }
 
-.vision1{
-    padding-left: 9%;
-    padding-right: 9%;
-    line-height: 150%;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.7vw;
-}
   
-.vision2{
-    padding-right: 9%;
-    padding-left: 9%;
-    line-height: 150%;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.6vw;
-    margin-bottom: 0%;
-}
-  
-h2{
-      padding-left: 9%;
-      padding-right: 9%;
-      padding-top: 5%;
+h2{ 
+      padding: 5% 9% 0% 9%;
       font-size: 3vw;
-      width: 90%;
+      width: 80%;
       font-style: normal;
       font-weight: inherit;
       line-height: 90%;
+      text-transform: uppercase;
+   
 }
 
 .futur{
-
     padding-left: 9%;
-    margin-top: -4%;
-    padding-bottom: 0%;
     font-size: 1.5vw;
+    font-family: 'Playfair Display', serif;
 }
 
 /*Deuxieme Paragraphe*/
@@ -171,29 +161,15 @@ img.bmarriere {
     padding: 2% 3% 0% 0%;
 }
 
-.caracteristique1{
+#lesparas2 p{
     font-family: 'Lato', sans-serif;
     font-size: 1.7vw;
     border-bottom: black solid 1px;   
     padding-bottom: 4%;
 }
 
+
 .caracteristique2{
-    padding-bottom: 4%;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.7vw;
-    border-bottom: black solid 1px;    
-}
-
-.caracteristique3{
-    padding-bottom: 4%;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.7vw;
-    border-bottom: black solid 1px;  
-
-}
-
-.caracteristique4{
     font-family: 'Lato', sans-serif;
     font-size: 1.7vw;
 }
@@ -205,8 +181,7 @@ img.bmarriere {
 /* partie droite marasy dans section*/
 
 #droite{
-    
-    width: 50%;
+    width: 51%;
     height: 50%;
     justify-content:flex-start;
     float: right;
@@ -236,19 +211,25 @@ img.bmarriere {
 
 
 h5{
-    font-size: 4vw;
-    width: 50%;
+    font-size: 3vw;
+    width: 70%;
     margin-left: 9%;
     margin-bottom: auto;
     margin-top: 10%;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: inherit;   
 }
 
 .matériaux {
     margin-top: 0%;
     margin-left: 9%;
-    margin-bottom: 8%;}
+    margin-bottom: 8%;
+    font-family: 'Playfair Display', serif;}
 
 .texte{
+    font-family: 'Lato', sans-serif;
     margin-left: 9%;
     width: 80%;}
 
@@ -258,29 +239,24 @@ h5{
     float: right;  
 }
 
-.compteur{   
+.compteur{  
     float: left;
-    width: 24.8vw;
+    width: 24.4vw;
     height: 18.5vw;
+
 }
 
+.compteur.hover{
+    opacity: 1;
+    width: 100%;
+}
 .phare{
     float: right;
-    width: 24.8vw;
+    width: 25.2vw;
     height: 18.5vw;
 }
 
-.jante{
-    float: left;
-    width: 24.8vw;
-    height: 18.5vw;
-}
 
-.interieur{
-    float: right;
-    width: 24.8vw;
-    height: 18.5vw;
-}
  
 /* partie formulaire */
 /* photo de fond formulaire */
@@ -318,7 +294,7 @@ h5{
 }
 
 fieldset.form{
-    width: 40%;
+    width: 32%;
     flex-direction: column;
     box-sizing: content-box;
     display: flex;
@@ -333,7 +309,7 @@ fieldset.form{
 fieldset input{
     margin-bottom: 4%;
     font-weight: bold;
-    padding-left: 1%;
+    padding-left: 1.5%;
 }
 
 .prenom{
@@ -377,6 +353,7 @@ fieldset input{
   font-size: 1.3vw;
   font-family: 'Playfair Display', serif;
   font-weight: bold; 
+  margin-left: 25%;
 }
 /* texte footer */
 
@@ -389,8 +366,6 @@ footer{
 }
 
 footer a { 
-    font-size: 1.5vw;
-    font-family: 'Lato', sans-serif;
     text-decoration: none;
     color: white;
     justify-content: flex-start;
@@ -404,6 +379,13 @@ footer a {
     padding:2% 3% 0% 0%;
 }
 
+#partiegauche p{ 
+    margin-top: 19%;
+    width: 70%;
+    line-height: 37px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4vw;}
+
 
 #milieu{
     float: left;
@@ -411,9 +393,17 @@ footer a {
     width: 20%;
    }
 
+#milieu p{
+    margin-top: 8%;
+    width: 90%;
+    line-height: 37px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4vw;
+}
 
-p.universmcar , p.conditions{
-     font-weight: bolder;
+
+.universmcar{
+     font-weight: bold;
      font-family: 'Playfair Display', serif;
      font-size: 1.8vw;
      padding-bottom: 14%;
@@ -425,13 +415,12 @@ p.universmcar , p.conditions{
     padding: 0% 5% 0% 0%;
 } 
 
-.rejoignez{
-    color: #fff;
-    font-size: 2.5vw;
-    padding-top: 0%;    
+#logo{
+    margin-top: -20%;
 }
 
-#logo a{margin-right: 7%;}
+#logo a{
+    margin-right: 7%;}
 
 /* rgpd formulaire */
 
@@ -443,16 +432,19 @@ p.universmcar , p.conditions{
 #mailchimp {
         float: right;
         font-family: 'Playfair Display', serif;
-        font-size: 0.8vw;
+        font-size: 0.9vw;
         margin-top: 2%;
-        padding: 0%;
-       
+        padding: 0%;       
     }
 
 fieldset.mc_fieldset label {
         font-weight: normal;
          float: left;
     }
+
+fieldset.mc_fieldset{
+    border: 0px;
+}
 
 
 
@@ -644,6 +636,7 @@ fieldset.form{
 
 
 .texte{
+    font-family: 'Lato', sans-serif;
     font-size: 1.7vw;
     margin-left: 6%;
     width: 86%;}
