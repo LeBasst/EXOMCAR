@@ -136,9 +136,10 @@ h2{
 }
 
 .futur{
-    padding-left: 9%;
+    margin-left: 9%;
     font-size: 1.5vw;
     font-family: 'Playfair Display', serif;
+    margin-top: 20%;
 }
 
 /*Deuxieme Paragraphe*/
@@ -150,7 +151,7 @@ h2{
 
 
 img.bmarriere {
-    width:49.5vw;
+    width:49.2vw;
     float: left;
     }
 
@@ -234,26 +235,21 @@ h5{
     width: 80%;}
 
 #droite{ 
-    width: 50.1%;
+    width: 50.5%;
     height: 50%;
     float: right;  
 }
 
 .compteur{  
     float: left;
-    width: 24.4vw;
-    height: 18.5vw;
-
+    width: 24.5vw;
+    height: 16.8vw;
 }
 
-.compteur.hover{
-    opacity: 1;
-    width: 100%;
-}
 .phare{
     float: right;
-    width: 25.2vw;
-    height: 18.5vw;
+    width: 25.5vw;
+    height: 16.8vw;
 }
 
 
@@ -310,6 +306,7 @@ fieldset input{
     margin-bottom: 4%;
     font-weight: bold;
     padding-left: 1.5%;
+    font-family: 'Lato', sans-serif;
 }
 
 .prenom{
